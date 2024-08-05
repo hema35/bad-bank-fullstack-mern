@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(250, 226, 130);
+}
+  
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+
+/* Home */
+
+.bank {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.h1 {
+  margin: auto auto;
+  text-align: center;
+}
+
+/* Error Message */
+
+.center {
+  margin-left: 230px;
+}
+
+/* Home Page Card */
+
+.home-card {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.card-header {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(225, 126, 126);
+
+}
+.card {
+  margin: 0 20%;
+}
+
+.homeImg {
+  max-width: 20% !important;
+}
+.card-body {
+  color: black;
+  background-color: rgb(218, 181, 181);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* margin-left: 5%;
+  margin-top: 10%; */
+  
+}
+
+.card-text {
+  font-size: 1em;
+  /* margin-top: 5%;
+  margin-left: 10%; */
+}
+
+.field {
+  width: 80%;
+  margin: 1rem;
+}
+
+.button {
+  margin: 1rem;
+  width: 200px;
+}
+
+.table {
+  font-size: small;
+}
+
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: #4A4860;
+/* z-index: 10000; */
+border-bottom: 4px solid #323042;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+flex-direction: column;
+@media all and (min-width: 545px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    display: none;
+    @media all and (min-width: 545px) {
+        display: block;
+    }
+}
+a {
+    display: block;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    /* font-size: 0.7em; */
+    color: #FFE4FA;
+    text-align: center;
+    padding: 14px 30px;
+    transition: background .25s, box-shadow .15s;
+    &:hover {
+        color: #4A4860;
+        background:  rgb(218, 181, 181);
+        box-shadow: 0px 4px 0px 0px rgb(225, 126, 126);
+    }
+    @media all and (min-width: 545px) {
+        padding: 20px;
+    }
+}
+}

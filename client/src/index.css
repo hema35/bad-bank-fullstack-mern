@@ -1,0 +1,148 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8eef6;;
+}
+
+/* Home */
+
+.bank {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.h1 {
+  margin: auto auto;
+  text-align: center;
+}
+
+/* Error Message */
+
+.center {
+  margin-left: 230px;
+}
+
+/* Home Page Card */
+
+.home-card {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.card-header {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(225, 126, 126);
+
+}
+.card {
+  margin: 0 20%;
+}
+
+.homeImg {
+  max-width: 20% !important;
+}
+.card-body {
+  color: black;
+  background-color: rgb(218, 181, 181);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* margin-left: 5%;
+  margin-top: 10%; */
+  
+}
+
+.card-text {
+  font-size: 1em;
+  /* margin-top: 5%;
+  margin-left: 10%; */
+}
+
+.field {
+  width: 80%;
+  margin: 1rem;
+}
+
+.button {
+  margin: 1rem;
+  width: 200px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.create-account-link {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #FFE4FA;
+  color: #343a40;;
+  padding: 1rem 0;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: #ee6b6b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #ee6b6b !important;
+  .btn-light {
+    background-color: rgb(218, 181, 181);
+    .active {
+      background-color: #da35ca
+    }
+  }
+}
+
+ 
