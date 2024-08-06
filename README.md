@@ -1,4 +1,4 @@
-##Title: Bad Bank Application
+## : Bad Bank Application
 ##Description
 Bad Bank is the Capstone Project for Module 2 in the MIT - Fullstack Development with MERN.
 
