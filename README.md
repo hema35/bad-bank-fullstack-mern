@@ -3,7 +3,7 @@
 Bad Bank is the Capstone Project for Module 2 in the MIT - Fullstack Development with MERN.
 
 ##  Technologies used:
-HTML, CSS, JavaScript
+* HTML, CSS, JavaScript
 React, React Router
 Node, Express
 MongoDB
