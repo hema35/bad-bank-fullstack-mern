@@ -20,7 +20,7 @@ jobs:
 
       - name: Use Node.js ${{ matrix.node-version }}
 
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
 
         with:
 
@@ -44,7 +44,7 @@ jobs:
          docker login -u ${{ secrets.DOCKERHUB_USERNAME }}
       - name: Get the version
         id: vars
-        run: echo ::set-output name=tag::$( echo ${GITHUB_})
+        run: echo ::set-output name=tag::$( echo ${GITHUB_REF:1})
       - name: Build the tagged Docker image
         run: docker build -t jrwtango/C2express002 .
       - name: Push the tagged Docker image
