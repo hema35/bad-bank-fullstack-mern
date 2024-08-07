@@ -41,7 +41,7 @@ jobs:
 
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.DOCKERHUB_TOKEN }} |
-         docker login -u ${{ secrets.DOCKERHUB_USERNAME }}
+         docker login -u ${{ secrets.DOCKERHUB_USERNAME: hema045 }}
       - name: Get the version
         id: vars
         run: echo ::set-output name=tag::$( echo ${GITHUB_REF:1})
